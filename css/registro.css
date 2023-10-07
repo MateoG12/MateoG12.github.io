@@ -1,0 +1,223 @@
+body{background-image: url(../img/feather-4431599_1920.jpg);}
+header{height: 100px;
+width: auto;
+background-color: rgba(216, 248, 216, 0.7);}
+h1{
+font-size: 35px;
+font-family: cursive;
+color: rgb(78, 3, 143);}
+#contenedor{
+display: flex;
+justify-content: space-around;}
+#div{margin-top: 10px;}
+#div3{margin-left: 90px;}
+a{text-decoration: none;
+color: rgb(0, 0, 0);
+margin-left: 5px;
+margin-right: 5px;
+font-size: 20px;}
+#contenedor2{width: 25%;
+height: 500px;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: column;
+justify-items: space-evenly;
+background-color: rgba(255, 255, 255, 0.7);
+padding: 30px;
+padding-top: 80px;
+border-radius: 30px;
+border: 5px solid  rgb(103, 29, 171);}
+label{font-size: 30px;
+margin: 20px 30px;
+margin-top: 50px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(0, 0, 0);}
+input{height: 20px;
+border:  2px solid black;
+color: rgb(255, 255, 255);
+background-color: rgba(103, 29, 171, 0.5);}
+h2{text-align: center;
+font-size: 40px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-top:  30px ;
+color: rgb(253, 253, 253);}
+button{margin-left:  150px ;
+margin-top: 50px;
+height: 100px;
+width: 200px;
+font-size: 30px;
+border: 2px solid black;
+background-color: rgba(103, 29, 171, 0.5);}
+@media screen and (min-width: 280px) and (max-width: 490px){
+header{height: 100px;
+width: auto;
+background-color: rgba(216, 248, 216, 0.7);}
+h1{
+font-size: 20px;
+font-family: cursive;
+color: rgb(78, 3, 143);}
+article{width: 280px;
+margin-left: auto;
+margin-right: auto;}
+#contenedor{
+display: flex;
+justify-content: space-around;}
+#div{margin-top: 10px;}
+#div3{margin-left: 50px;}
+a{text-decoration: none;
+color: rgb(0, 0, 0);
+margin-left: 5px;
+margin-right: 5px;
+font-size: 10px;}
+#contenedor2{width: 60%;
+height: 400px;
+margin-top: 30px;
+margin-right: 40px;
+display: flex;
+flex-direction: column;
+justify-items: space-evenly;
+background-color: rgba(255, 255, 255, 0.7);
+padding: 30px;
+padding-top: 80px;
+border-radius: 30px;
+border: 5px solid  rgb(103, 29, 171);}
+label{font-size: 20px;
+margin: 20px 30px;
+margin-top: 50px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(0, 0, 0);}
+input{height: 10px;
+border:  2px solid black;
+color: rgb(255, 255, 255);
+background-color: rgba(103, 29, 171, 0.5);}
+h2{text-align: center;
+font-size: 40px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-top:  30px ;
+color: rgb(253, 253, 253);}
+button{margin-left:  20px ;
+margin-top: 50px;
+height: 50px;
+width: 150px;
+font-size: 20px;
+border: 2px solid black;
+background-color: rgba(103, 29, 171, 0.5);}
+}
+@media screen and (min-width: 491px) and (max-width: 570px){
+    #contenedor2{width: 70%;
+        height: 400px;
+        margin-top: 30px;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-items: space-evenly;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 30px;
+        padding-top: 80px;
+        border-radius: 30px;
+        border: 5px solid  rgb(103, 29, 171);}
+        article{width: 400px;
+         margin-left: auto;
+        margin-right: auto;}
+        label{font-size: 20px;
+        margin: 20px 30px;
+        margin-top: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);}
+        input{height: 15px;
+        border:  2px solid black;
+        color: rgb(255, 255, 255);
+        background-color: rgba(103, 29, 171, 0.5);}
+        h2{text-align: center;
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-top:  30px ;
+        color: rgb(253, 253, 253);}
+        button{margin-left:  120px ;
+        margin-top: 50px;
+        height: 70px;
+        width: 170px;
+        font-size: 25px;
+        border: 2px solid black;}
+}
+@media screen and (min-width: 571px) and (max-width: 890px){
+    #contenedor2{width: 70%;
+        height: 400px;
+        margin-top: 30px;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-items: space-evenly;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 30px;
+        padding-top: 80px;
+        border-radius: 30px;
+        border: 5px solid  rgb(103, 29, 171);}
+        article{width: 450px;
+        margin-left: auto;
+        margin-right: auto;}
+        label{font-size: 25px;
+        margin: 20px 30px;
+        margin-top: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);}
+        input{height: 20px;
+        border:  2px solid black;
+        color: rgb(255, 255, 255);
+        background-color: rgba(103, 29, 171, 0.5);}
+        h2{text-align: center;
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-top:  30px ;
+        color: rgb(253, 253, 253);}
+        button{margin-left:  120px ;
+        margin-top: 50px;
+        height: 70px;
+        width: 170px;
+        font-size: 25px;
+        border: 2px solid black;}
+}
+@media screen and (min-width: 891px)and (max-width: 1057px){
+    #contenedor2{width: 70%;
+        height: 400px;
+        margin-top: 30px;
+        margin-right: 80px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-items: space-evenly;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 30px;
+        padding-top: 80px;
+        border-radius: 30px;
+        border: 5px solid  rgb(103, 29, 171);}
+        article{width: 450px;
+        margin-left: auto;
+        margin-right: auto;}
+        label{font-size: 25px;
+        margin: 20px 30px;
+        margin-top: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);}
+        input{height: 20px;
+        border:  2px solid black;
+        color: rgb(255, 255, 255);
+        background-color: rgba(103, 29, 171, 0.5);}
+        h2{text-align: center;
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-top:  30px ;
+        color: rgb(253, 253, 253);}
+        button{margin-left:  120px ;
+        margin-top: 50px;
+        height: 70px;
+        width: 170px;
+        font-size: 25px;}
+}
+   
+
+
+
